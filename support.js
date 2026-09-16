@@ -3,7 +3,23 @@
   if (window.__jaoSupportLoaded) return;
   window.__jaoSupportLoaded = true;
 
-  var CHIME_TAG = '$john0ogletree';
+  var CONFIG = Object.assign({
+    mode: 'auto',
+    title: 'Support',
+    message: 'If this saves you time or sparks creativity, consider buying me a coffee. It helps keep this tool free and open for everyone.',
+    footer: '💛 100% of donations go to supporting development',
+    badge: '❤️ open source',
+    chimeTag: '$john0ogletree',
+    links: {
+      coffee:    'https://www.buymeacoffee.com/john0ogletree',
+      cashapp:   'https://cash.app/$john0ogletree',
+      venmo:     'https://venmo.com/john0ogletree',
+      paypal:    'https://www.paypal.me/john0ogletree',
+      liberapay: 'https://liberapay.com/john0ogletree'
+    }
+  }, window.JAO_SUPPORT_CONFIG || {});
+
+  var CHIME_TAG = CONFIG.chimeTag;
 
   var css = `
     #jao-support {
@@ -110,7 +126,6 @@
       border-top: 1px solid rgba(30,41,59,.6);
     }
 
-    /* --- Floating button + popover (Option B) --- */
     #jao-float-btn {
       position: fixed; bottom: 20px; right: 20px;
       width: 56px; height: 56px; border-radius: 50%;
@@ -162,31 +177,29 @@
   style.textContent = css;
   document.head.appendChild(style);
 
-  // --- The donate card body (shared by inline + popover) ---
   function cardHTML() {
+    var L = CONFIG.links;
     return `
       <div class="jao-head">
         <span class="jao-coffee">☕</span>
-        <span>Support</span>
-        <span class="jao-badge">❤️ open source</span>
+        <span>${CONFIG.title}</span>
+        <span class="jao-badge">${CONFIG.badge}</span>
       </div>
-      <p class="jao-desc">
-        If this saves you time or sparks creativity, consider buying me a coffee. It helps keep this tool free and open for everyone.
-      </p>
+      <p class="jao-desc">${CONFIG.message}</p>
       <div class="jao-grid">
-        <a class="jao-btn jao-main jao-full" href="https://www.buymeacoffee.com/john0ogletree" target="_blank" rel="noopener noreferrer">
+        <a class="jao-btn jao-main jao-full" href="${L.coffee}" target="_blank" rel="noopener noreferrer">
           <span>☕</span> Buy me a coffee
         </a>
-        <a class="jao-btn jao-cashapp" href="https://cash.app/$john0ogletree" target="_blank" rel="noopener noreferrer">
+        <a class="jao-btn jao-cashapp" href="${L.cashapp}" target="_blank" rel="noopener noreferrer">
           <span>💰</span> Cash App
         </a>
-        <a class="jao-btn jao-venmo" href="https://venmo.com/john0ogletree" target="_blank" rel="noopener noreferrer">
+        <a class="jao-btn jao-venmo" href="${L.venmo}" target="_blank" rel="noopener noreferrer">
           <span>💳</span> Venmo
         </a>
-        <a class="jao-btn jao-paypal" href="https://www.paypal.me/john0ogletree" target="_blank" rel="noopener noreferrer">
+        <a class="jao-btn jao-paypal" href="${L.paypal}" target="_blank" rel="noopener noreferrer">
           <span>🅿️</span> PayPal
         </a>
-        <a class="jao-btn jao-liberapay" href="https://liberapay.com/john0ogletree" target="_blank" rel="noopener noreferrer">
+        <a class="jao-btn jao-liberapay" href="${L.liberapay}" target="_blank" rel="noopener noreferrer">
           <span>💛</span> Liberapay
         </a>
         <a class="jao-btn jao-chime jao-chime-btn" href="#">
@@ -198,7 +211,7 @@
         <span class="val">${CHIME_TAG}</span>
         <span class="hint">(click to copy)</span>
       </div>
-      <div class="jao-foot">💛 100% of donations go to supporting development</div>
+      <div class="jao-foot">${CONFIG.footer}</div>
     `;
   }
 
@@ -250,7 +263,7 @@
   function mountFloating() {
     var btn = document.createElement('button');
     btn.id = 'jao-float-btn';
-    btn.setAttribute('aria-label', 'Support');
+    btn.setAttribute('aria-label', CONFIG.title);
     btn.innerHTML = '☕';
 
     var pop = document.createElement('div');
@@ -265,14 +278,12 @@
       pop.classList.toggle('open');
     });
 
-    // Close when clicking outside
     document.addEventListener('click', function (e) {
       if (!pop.classList.contains('open')) return;
       if (pop.contains(e.target) || btn.contains(e.target)) return;
       pop.classList.remove('open');
     });
 
-    // Close on Escape
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') pop.classList.remove('open');
     });
@@ -282,11 +293,9 @@
 
   function mount() {
     var root = document.getElementById('jao-support');
-    if (root) {
-      mountInline(root);
-    } else {
-      mountFloating();
-    }
+    var mode = CONFIG.mode;
+    if (mode === 'float' || (mode === 'auto' && !root)) mountFloating();
+    else if (root) mountInline(root);
   }
 
   if (document.readyState === 'loading') {
