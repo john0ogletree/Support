@@ -7,11 +7,11 @@
 
   // ---------- i18n ----------
   var I18N = {
-    en: { title:'Support', message:'If this saves you time or sparks creativity, consider buying me a coffee. It helps keep this tool free and open for everyone.', footer:'💛 100% of donations go to supporting development', badge:'❤️ open source', coffee:'Buy me a coffee', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Chime Tag:', clickCopy:'(click to copy)', copied:'📋 Copied: ', dismiss:'Hide', close:'Close' },
-    es: { title:'Apoyar', message:'Si esto te ahorra tiempo o inspira creatividad, considera invitarme un café. Ayuda a mantener esta herramienta gratuita y abierta para todos.', footer:'💛 El 100% de las donaciones apoya el desarrollo', badge:'❤️ código abierto', coffee:'Invítame un café', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Etiqueta Chime:', clickCopy:'(clic para copiar)', copied:'📋 Copiado: ', dismiss:'Ocultar', close:'Cerrar' },
-    fr: { title:'Soutenir', message:'Si cela vous fait gagner du temps ou inspire votre créativité, offrez-moi un café. Cela aide à garder cet outil gratuit et ouvert à tous.', footer:'💛 100% des dons soutiennent le développement', badge:'❤️ open source', coffee:'Offrez-moi un café', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Tag Chime :', clickCopy:'(cliquez pour copier)', copied:'📋 Copié : ', dismiss:'Masquer', close:'Fermer' },
-    de: { title:'Unterstützen', message:'Wenn dir das Zeit spart oder Kreativität weckt, spendiere mir einen Kaffee. Es hilft, dieses Tool kostenlos und offen zu halten.', footer:'💛 100% der Spenden unterstützen die Entwicklung', badge:'❤️ Open Source', coffee:'Kaffee spendieren', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Chime-Tag:', clickCopy:'(zum Kopieren klicken)', copied:'📋 Kopiert: ', dismiss:'Ausblenden', close:'Schließen' },
-    pt: { title:'Apoiar', message:'Se isto economiza seu tempo ou inspira criatividade, considere me pagar um café. Ajuda a manter esta ferramenta gratuita e aberta para todos.', footer:'💛 100% das doações apoiam o desenvolvimento', badge:'❤️ código aberto', coffee:'Pague-me um café', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Tag Chime:', clickCopy:'(clique para copiar)', copied:'📋 Copiado: ', dismiss:'Ocultar', close:'Fechar' }
+    en: { title:'Support', message:'If this saves you time or sparks creativity, consider buying me a coffee. It helps keep this tool free and open for everyone.', footer:'💛 100% of donations go to supporting development', badge:'❤️ open source', coffee:'Buy me a coffee', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Chime Tag:', clickCopy:'(click to copy)', dismiss:'Hide', close:'Close' },
+    es: { title:'Apoyar', message:'Si esto te ahorra tiempo o inspira creatividad, considera invitarme un café. Ayuda a mantener esta herramienta gratuita y abierta para todos.', footer:'💛 El 100% de las donaciones apoya el desarrollo', badge:'❤️ código abierto', coffee:'Invítame un café', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Etiqueta Chime:', clickCopy:'(clic para copiar)', dismiss:'Ocultar', close:'Cerrar' },
+    fr: { title:'Soutenir', message:'Si cela vous fait gagner du temps ou inspire votre créativité, offrez-moi un café. Cela aide à garder cet outil gratuit et ouvert à tous.', footer:'💛 100% des dons soutiennent le développement', badge:'❤️ open source', coffee:'Offrez-moi un café', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Tag Chime :', clickCopy:'(cliquez pour copier)', dismiss:'Masquer', close:'Fermer' },
+    de: { title:'Unterstützen', message:'Wenn dir das Zeit spart oder Kreativität weckt, spendiere mir einen Kaffee. Es hilft, dieses Tool kostenlos und offen zu halten.', footer:'💛 100% der Spenden unterstützen die Entwicklung', badge:'❤️ Open Source', coffee:'Kaffee spendieren', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Chime-Tag:', clickCopy:'(zum Kopieren klicken)', dismiss:'Ausblenden', close:'Schließen' },
+    pt: { title:'Apoiar', message:'Se isto economiza seu tempo ou inspira criatividade, considere me pagar um café. Ajuda a manter esta ferramenta gratuita e aberta para todos.', footer:'💛 100% das doações apoiam o desenvolvimento', badge:'❤️ código aberto', coffee:'Pague-me um café', cashapp:'Cash App', venmo:'Venmo', paypal:'PayPal', liberapay:'Liberapay', kofi:'Ko-fi', patreon:'Patreon', github:'GitHub Sponsors', stripe:'Stripe', bitcoin:'Bitcoin', lightning:'Lightning', chime:'Chime', chimeLbl:'Tag Chime:', clickCopy:'(clique para copiar)', dismiss:'Ocultar', close:'Fechar' }
   };
 
   function pickLang(tag) {
@@ -23,10 +23,10 @@
   // ---------- Defaults ----------
   var DEFAULTS = {
     mode: 'auto',
-    lang: null,             // null = auto-detect from <html lang> or navigator.language
-    theme: 'auto',          // 'dark' | 'light' | 'auto'
+    lang: null,
+    theme: 'auto',
     position: 'bottom-right',
-    accent: null,           // e.g. '#6366f1'
+    accent: null,
 
     methods: ['coffee','cashapp','venmo','paypal','liberapay','chime'],
 
@@ -44,20 +44,18 @@
 
     chimeTag: '$johndoe',
 
-    // Behavior
-    delay: 0,               // ms before showing (float only)
-    scrollTrigger: 0,       // 0..100 percent scrolled (float only)
+    delay: 0,
+    scrollTrigger: 0,
     hideOnMobile: false,
     dismissible: false,
-    showOnce: 0,            // 0 = never remember; >0 = hide for N days after dismiss
-    excludePaths: [],       // e.g. ['/checkout','/admin']
+    showOnce: 0,
+    excludePaths: [],
 
-    // Optional
-    credit: null,           // { label, href }
-    footer: null,           // overrides i18n footer
-    message: null,          // overrides i18n message
-    title: null,            // overrides i18n title
-    badge: null             // overrides i18n badge
+    credit: null,
+    footer: null,
+    message: null,
+    title: null,
+    badge: null
   };
 
   // ---------- Styles ----------
@@ -170,7 +168,7 @@
       box-shadow: 0 6px 20px rgba(245,158,11,.4);
       font-size: 26px; line-height: 1;
       display: flex; align-items: center; justify-content: center;
-      transition: transform .15s ease;
+      transition: transform .15s ease, opacity .2s ease;
     }
     .sw-float:hover { transform: scale(1.08); }
     .sw-float:active { transform: scale(.94); }
@@ -221,6 +219,7 @@
     .sw-light .sw-tag .val { color:#1d4ed8; }
     .sw-light .sw-dismiss { color:#64748b; }
     .sw-light .sw-dismiss:hover { color:#334155; }
+    .sw-light.sw-pop { background:#fff7ed; border-color: rgba(180,83,9,.25); }
 
     @media (max-width: 640px) {
       .sw-hide-mobile .sw-float,
@@ -385,15 +384,12 @@
   }
 
   function applyTheme(el, cfg) {
-    // Resolve 'auto'
     var want = cfg.theme;
     if (want === 'auto') {
       want = (window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
     }
     if (want === 'light') el.classList.add('sw-light');
-    if (cfg.accent) {
-      el.style.setProperty('--sw-accent', cfg.accent);
-    }
+    if (cfg.accent) el.style.setProperty('--sw-accent', cfg.accent);
   }
 
   function readAttrs(el) {
@@ -407,19 +403,18 @@
     if (el.hasAttribute('methods')) {
       o.methods = el.getAttribute('methods').split(',').map(function (s) { return s.trim(); }).filter(Boolean);
     }
-    if (el.hasAttribute('delay'))         o.delay = parseInt(el.getAttribute('delay'), 10) || 0;
-    if (el.hasAttribute('scroll-trigger'))o.scrollTrigger = parseInt(el.getAttribute('scroll-trigger'), 10) || 0;
-    if (el.hasAttribute('show-once'))     o.showOnce = parseInt(el.getAttribute('show-once'), 10) || 0;
-    if (el.hasAttribute('dismissible'))   o.dismissible = el.getAttribute('dismissible') !== 'false';
-    if (el.hasAttribute('hide-on-mobile'))o.hideOnMobile = el.getAttribute('hide-on-mobile') !== 'false';
-    if (el.hasAttribute('exclude-paths')) o.excludePaths = el.getAttribute('exclude-paths').split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+    if (el.hasAttribute('delay'))          o.delay = parseInt(el.getAttribute('delay'), 10) || 0;
+    if (el.hasAttribute('scroll-trigger')) o.scrollTrigger = parseInt(el.getAttribute('scroll-trigger'), 10) || 0;
+    if (el.hasAttribute('show-once'))      o.showOnce = parseInt(el.getAttribute('show-once'), 10) || 0;
+    if (el.hasAttribute('dismissible'))    o.dismissible = el.getAttribute('dismissible') !== 'false';
+    if (el.hasAttribute('hide-on-mobile')) o.hideOnMobile = el.getAttribute('hide-on-mobile') !== 'false';
+    if (el.hasAttribute('exclude-paths'))  o.excludePaths = el.getAttribute('exclude-paths').split(',').map(function (s) { return s.trim(); }).filter(Boolean);
 
     return o;
   }
 
   function resolveConfig(attrs) {
     var cfg = Object.assign({}, DEFAULTS, GLOBAL, attrs);
-    // Resolve language
     var lang = cfg.lang || (document.documentElement.getAttribute('lang')) || (navigator.language || 'en');
     cfg._lang = pickLang(lang);
     cfg._t = I18N[cfg._lang];
@@ -438,7 +433,7 @@
   function mountFloating(cfg) {
     if (document.querySelector('.sw-float')) return;
 
-    if (cfg.hideOnMobile) document.body.classList.add('sw-hide-mobile');
+    if (cfg.hideOnMobile && isMobile()) document.body.classList.add('sw-hide-mobile');
     if (cfg.excludePaths && cfg.excludePaths.length && pathExcluded(cfg.excludePaths)) return;
     if (cfg.dismissible && isDismissed(cfg.showOnce)) return;
 
@@ -458,7 +453,6 @@
     pop.innerHTML = buildCard(cfg, cfg._t);
     applyTheme(pop, cfg);
 
-    // Dismiss button
     if (cfg.dismissible) {
       var dWrap = document.createElement('div');
       dWrap.className = 'sw-dismiss-wrap';
@@ -510,10 +504,7 @@
 
     wireCard(cfg, pop);
 
-    // Deferred show
-    var reveal = function () {
-      btn.classList.remove('hidden');
-    };
+    var reveal = function () { btn.classList.remove('hidden'); };
     if (cfg.delay > 0) {
       btn.classList.add('hidden');
       setTimeout(reveal, cfg.delay);
@@ -587,18 +578,28 @@
   };
   window.SupportWidget = API;
 
-  // ---------- Auto-mount fallback (plain containers) ----------
+  // ---------- Auto-mount ----------
   function autoMount() {
-    var inline = document.getElementById('support-widget');
-    if (inline && inline.tagName.toLowerCase() !== 'support-widget') {
+    var host = document.getElementById('support-widget');
+    if (host && host.tagName.toLowerCase() !== 'support-widget') {
       var cfg = resolveConfig(Object.assign({ mode: 'inline' }, GLOBAL));
-      renderInline(inline, cfg);
+      renderInline(host, cfg);
+      return;
     }
+
     var floatHost = document.getElementById('support-float');
     if (floatHost) {
       var cfg2 = resolveConfig(Object.assign({ mode: 'float' }, GLOBAL));
       mountFloating(cfg2);
+      return;
     }
+
+    // Auto-show a floating widget when no host element exists.
+    // If a <support-widget> is already in the DOM, its connectedCallback handles it.
+    if (document.querySelector('support-widget')) return;
+
+    var cfg3 = resolveConfig(Object.assign({ mode: 'float' }, GLOBAL));
+    mountFloating(cfg3);
   }
 
   defineElement();
@@ -606,4 +607,21 @@
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', autoMount);
   } else { autoMount(); }
+
+  // Watch for late-added <support-widget> elements (customElements handles this,
+  // but we also catch it for browsers without customElements).
+  if (window.MutationObserver && !window.customElements) {
+    new MutationObserver(function (muts) {
+      for (var i = 0; i < muts.length; i++) {
+        for (var j = 0; j < muts[i].addedNodes.length; j++) {
+          var n = muts[i].addedNodes[j];
+          if (n.nodeType === 1 && n.tagName && n.tagName.toLowerCase() === 'support-widget') {
+            var cfg = resolveConfig(readAttrs(n));
+            if (cfg.mode === 'inline' || n.hasAttribute('inline')) renderInline(n, cfg);
+            else { n.style.display = 'none'; mountFloating(cfg); }
+          }
+        }
+      }
+    }).observe(document.documentElement, { childList: true, subtree: true });
+  }
 })();
