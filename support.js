@@ -167,11 +167,11 @@
     return `
       <div class="jao-head">
         <span class="jao-coffee">☕</span>
-        <span>Support OmniPost</span>
+        <span>Support</span>
         <span class="jao-badge">❤️ open source</span>
       </div>
       <p class="jao-desc">
-        If OmniPost saves you time or sparks creativity, consider buying me a coffee. It helps keep this tool free and open for everyone.
+        If this saves you time or sparks creativity, consider buying me a coffee. It helps keep this tool free and open for everyone.
       </p>
       <div class="jao-grid">
         <a class="jao-btn jao-main jao-full" href="https://www.buymeacoffee.com/john0ogletree" target="_blank" rel="noopener noreferrer">
