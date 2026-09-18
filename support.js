@@ -76,6 +76,8 @@
     #jao-support a.jao-main:active,
     .jao-pop a.jao-main:active { transform: scale(.97); }
 
+    #jao-support a.jao-kofi,      .jao-pop a.jao-kofi      { background:#ff5e5b; color:#fff; }
+    #jao-support a.jao-kofi:hover,      .jao-pop a.jao-kofi:hover      { background:#ff7471; box-shadow:0 0 25px rgba(255,94,91,.35); }
     #jao-support a.jao-paypal,    .jao-pop a.jao-paypal    { background:#0070ba; color:#fff; }
     #jao-support a.jao-paypal:hover,    .jao-pop a.jao-paypal:hover    { background:#0085dd; box-shadow:0 0 25px rgba(0,112,186,.3); }
     #jao-support a.jao-liberapay, .jao-pop a.jao-liberapay { background:#f6c915; color:#1a1a1a; font-weight:700; }
@@ -176,6 +178,9 @@
       <div class="jao-grid">
         <a class="jao-btn jao-main jao-full" href="https://www.buymeacoffee.com/john0ogletree" target="_blank" rel="noopener noreferrer">
           <span>☕</span> Buy me a coffee
+        </a>
+        <a class="jao-btn jao-kofi" href="https://ko-fi.com/john0ogletree" target="_blank" rel="noopener noreferrer">
+          <span>🎁</span> Ko-fi
         </a>
         <a class="jao-btn jao-cashapp" href="https://cash.app/$john0ogletree" target="_blank" rel="noopener noreferrer">
           <span>💰</span> Cash App
